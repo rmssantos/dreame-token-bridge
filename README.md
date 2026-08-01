@@ -8,6 +8,11 @@ It helps installations where the integration cannot complete Xiaomi CAPTCHA or
 two-factor authentication itself. It is not affiliated with Xiaomi, Dreame, Home
 Assistant, HACS, or the upstream integrations.
 
+<img src="assets/terminal-demo.gif" alt="Animated synthetic Xiaomi Account setup in a terminal" width="960">
+
+_Synthetic demonstration only: all credentials, CAPTCHA and 2FA values are fictional;
+session tokens are redacted._
+
 ## Safety first
 
 - Never pass a Xiaomi Account password, Home Assistant token, or device token as a
