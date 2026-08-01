@@ -6,7 +6,6 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
-
 PATCH_MARKER = "# __DREAME_TOKEN_CACHE_PATCH__"
 PATCH_ANCHOR = "    def login(self) -> bool:\n        self._session.close()"
 PATCH_BODY = """    # __DREAME_TOKEN_CACHE_PATCH__
