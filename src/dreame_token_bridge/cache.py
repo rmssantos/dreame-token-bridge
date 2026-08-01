@@ -5,8 +5,8 @@ from __future__ import annotations
 import json
 import os
 import tempfile
+from collections.abc import Mapping
 from pathlib import Path
-from typing import Mapping
 
 
 REQUIRED_TOKEN_FIELDS = {"username", "userId", "serviceToken", "ssecurity", "timestamp"}
