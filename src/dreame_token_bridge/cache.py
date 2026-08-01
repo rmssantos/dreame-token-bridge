@@ -8,7 +8,6 @@ import tempfile
 from collections.abc import Mapping
 from pathlib import Path
 
-
 REQUIRED_TOKEN_FIELDS = {"username", "userId", "serviceToken", "ssecurity", "timestamp"}
 
 
