@@ -2,11 +2,10 @@
 
 from __future__ import annotations
 
-from collections.abc import Mapping
-
 import json
 import os
 import tempfile
+from collections.abc import Mapping
 from pathlib import Path
 
 
