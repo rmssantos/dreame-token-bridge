@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dreame-token-bridge"
+version = "0.1.0"
+description = "Safely refresh Xiaomi Account tokens for a patched Dreame Vacuum integration."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "dreame-token-bridge contributors"}]
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["build>=1.2", "pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+dreame-token-bridge = "dreame_token_bridge.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

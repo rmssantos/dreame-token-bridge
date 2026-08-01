@@ -1,0 +1,18 @@
+============================================================
+  Dreame Token Bridge - Xiaomi Account session refresh
+============================================================
+
+Xiaomi Account: demo@example.com
+Password: [hidden]
+
+CAPTCHA verification required.
+Enter code: DEMO-42
+
+Two-factor authentication required.
+Enter code: 000000
+
+Xiaomi Account session refreshed.
+Token cache written: .dreame_auth_cache.json
+Protocol patch applied. Backup: protocol.py.bak
+
+Next: Reload Dreame Vacuum in Home Assistant.

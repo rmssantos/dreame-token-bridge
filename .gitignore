@@ -1,0 +1,25 @@
+# Secrets and local Home Assistant data
+.env
+.env.*
+!.env.example
+*.token
+*.secrets.json
+.dreame_auth_cache.json
+*auth_cache*
+*.har
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

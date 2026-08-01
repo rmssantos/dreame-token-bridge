@@ -1,0 +1,9 @@
+title = "dreame-token-bridge secret scanning rules"
+
+[allowlist]
+description = "Fictional placeholders used in documentation and tests"
+regexes = [
+  '''demo@example\\.com''',
+  '''REDACTED''',
+  '''example-token''',
+]
