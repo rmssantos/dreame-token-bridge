@@ -8,6 +8,21 @@ It helps installations where the integration cannot complete Xiaomi CAPTCHA or
 two-factor authentication itself. It is not affiliated with Xiaomi, Dreame, Home
 Assistant, HACS, or the upstream integrations.
 
+## Upstream projects
+
+This bridge complements these projects; it does not replace them:
+
+- [Tasshack/dreame-vacuum](https://github.com/Tasshack/dreame-vacuum) — the Home
+  Assistant custom integration used to control supported Dreame and Xiaomi robot
+  vacuum models.
+- [PiotrMachowski/Xiaomi-cloud-tokens-extractor](https://github.com/PiotrMachowski/Xiaomi-cloud-tokens-extractor)
+  — handles the Xiaomi Account login flow, including CAPTCHA and two-factor
+  authentication, from which this tool obtains a refreshed session.
+
+Please report device-control or integration issues to `dreame-vacuum`, and Xiaomi
+login/extractor issues to `Xiaomi-cloud-tokens-extractor`. Use this repository for
+the local cache-and-patch bridge itself.
+
 <img src="assets/terminal-demo.gif" alt="Animated synthetic Xiaomi Account setup in a terminal" width="960">
 
 _Synthetic demonstration only: all credentials, CAPTCHA and 2FA values are fictional;
